@@ -11,40 +11,33 @@
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
-        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
-
-    <!-- Main Styles -->
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/corner.css">
+    <title>JUST DO IT</title>
 
-    <title>Just do it.</title>
-
-    <!-- Custom Footer Styles -->
     <style>
+        /* Added footer styling */
         footer {
             text-align: center;
+            color: #bdbdbd;
             font-size: 14px;
-            color: #ccc;
             margin-top: 40px;
-            padding: 10px;
+            line-height: 1.8;
         }
-
         footer a {
             color: #80d4ff;
             text-decoration: none;
+            margin: 0 8px;
             font-size: 18px;
-            margin: 0 10px;
-            transition: 0.3s;
+            transition: 0.3s ease;
         }
-
         footer a:hover {
             color: #fff;
-            transform: scale(1.2);
         }
-
         .icon {
             display: inline-block;
         }
@@ -52,16 +45,15 @@
 </head>
 
 <body>
-    <!-- Header Section -->
     <div id="header">
         <div class="flexrow-container">
             <div class="standard-theme theme-selector"></div>
             <div class="light-theme theme-selector"></div>
             <div class="darker-theme theme-selector"></div>
         </div>
-        <!-- Title with original typing style -->
+
+        <!-- Original animated heading -->
         <h1 id="title">Just do it.<div id="border"></div></h1>
-        <p style="text-align:center; color:#bdbdbd; font-size:15px;">Developed by <strong>U ARUN</strong></p>
     </div>
 
     <!-- Input Form -->
@@ -72,7 +64,7 @@
         </form>
     </div>
 
-    <!-- GitHub Corner -->
+    <!-- GitHub corner badge (updated to your profile) -->
     <div class="version">
         <div class="demo version-section">
             <a href="https://github.com/U-ARUN07/todo-list" class="github-corner" aria-label="View source on GitHub">
@@ -84,7 +76,7 @@
                     C119.2,72.0 123.4,76.3 123.4,76.3 
                     C127.3,80.9 125.5,87.3 125.5,87.3 
                     C122.9,97.6 130.6,101.9 134.4,103.2" 
-                    fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+                    fill="currentColor" style="transform-origin:130px 106px;" class="octo-arm"></path>
                     <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 
                     L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 
                     C133.8,88.0 127.5,74.4 143.8,58.0 
@@ -105,22 +97,22 @@
         </div>
     </div>
 
-    <!-- DateTime -->
+    <!-- Date and Time -->
     <div>
         <p><span id="datetime"></span></p>
         <script src="JS/time.js"></script>
     </div>
 
-    <!-- To-Do List -->
+    <!-- To-Do List Area -->
     <div id="myUnOrdList">
         <ul class="todo-list">
-            <!-- JS will dynamically insert list items here -->
+            <!-- To-dos are dynamically added here -->
         </ul>
     </div>
 
-    <!-- Footer -->
+    <!-- Footer Section -->
     <footer>
-        © 2025 <strong>U ARUN</strong> | Created for Web Foundation Project <br>
+        © 2025 <strong>U ARUN</strong> | Created for Web Foundation Project<br>
         <a href="mailto:u.arunbabya1234@gmail.com" class="icon" title="Send Email">
             <i class="fas fa-envelope"></i>
         </a>
@@ -129,7 +121,7 @@
         </a>
     </footer>
 
-    <!-- Main JS -->
+    <!-- JS Files -->
     <script src="JS/main.js" type="text/javascript"></script>
 </body>
 </html>
