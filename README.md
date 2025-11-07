@@ -2,62 +2,66 @@
 
 ## 📝 To-Do List
 
-### 🌐 A Simple To-Do Website by **U ARUN**
+### 🌐 A Simple and Responsive To-Do Website by **U ARUN**
 
 ---
 
 ### 🔗 Live Demo
 This web page is hosted [**here!**](https://u-arun07.github.io/todo-list/)
-*(Replace the link after deploying your version — GitHub Pages will generate it automatically.)*
+
+*(If the link doesn’t work yet, publish it through GitHub Pages — it will appear automatically after a few minutes.)*
 
 ---
 
 ## 🚀 Features
 
-✅ **User-friendly interface** — clean, simple, and minimalistic.
-✅ **Local Storage support** — tasks stay saved even after closing the browser.
-✅ **Date & Time display** — shows the current date dynamically.
-✅ **Responsive design** — works smoothly on all screen sizes.
-✅ **Theme options** — supports multiple color themes or dark/light mode toggle.
+✅ **User-friendly interface** – clean, minimal, and responsive design
+✅ **Add / Delete / Complete Tasks** functionality
+✅ **LocalStorage support** – tasks remain saved even after page reload
+✅ **Displays current date and time**
+✅ **Multiple color themes** (light, dark, standard)
 
 ---
 
-## 🔧 Technologies Used
+## 🧰 Tech Stack
 
-- **HTML5** – for web structure
-- **CSS3** – for styling and responsiveness
-- **JavaScript (ES6)** – for logic and dynamic functionality
-- **LocalStorage API** – for persistent data storage
-
----
-
-## 🧩 Features Planned / To Be Added
-
-📌 *Future Enhancements:*
-- [ ] **Subtasks:** Add nested subtasks inside main tasks.
-- [ ] **Neumorphic Interface:** Apply modern UI/UX design using SASS.
-- [ ] **ScratchPad:** Add a note section that can be locally saved.
-- [ ] **Login System & Cloud Database:** Store tasks online using APIs.
-- [ ] **Reminders & Alerts:** Email notifications for due tasks.
+| Purpose | Technology |
+|----------|-------------|
+| Structure | **HTML5** |
+| Styling | **CSS3** |
+| Logic / Interactivity | **JavaScript (ES6)** |
+| Storage | **Browser LocalStorage** |
+| Icons | **Font Awesome** |
+| Fonts | **Google Fonts (Work Sans)** |
 
 ---
 
-## 🧠 References & Resources
+## 🧩 Planned Improvements
 
-| Purpose | Resource |
-|----------|-----------|
+- [ ] **Sub-tasks** – add subtasks within main tasks
+- [ ] **ScratchPad** – a mini note pad stored locally
+- [ ] **Login & Database** – sync tasks with an online account
+- [ ] **Reminder/Alerts** – email or push notifications
+- [ ] **Neumorphic Theme** – modern, soft-shadow design
+
+---
+
+## 🧠 References
+
+| Topic | Resource |
+|--------|-----------|
 | Fonts | [Google Fonts](https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap) |
 | Icons | [Font Awesome](https://fontawesome.com) • [Icons8](https://icons8.com/icons/) |
 | Color Design | [W3Schools Color Mixer](https://www.w3schools.com/colors/colors_mixer.asp) |
-| JavaScript Guide | [The Net Ninja YouTube Series](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET) |
-| CSS Techniques | [CSS Tricks](https://css-tricks.com/) • [SpeckyBoy Text Effects](https://speckyboy.com/underline-text-effects-css/) |
+| JavaScript Tutorial | [The Net Ninja Playlist](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET) |
+| CSS Guides | [CSS Tricks](https://css-tricks.com/) • [SpeckyBoy Text Effects](https://speckyboy.com/underline-text-effects-css/) |
 | Local Storage | [Web Dev Simplified Blog](https://blog.webdevsimplified.com/2020-08/cookies-localStorage-sessionStorage/) |
 
 ---
 
-## 🖼️ Website Demo
+## 🖼️ Demo Screenshots
 
-> Below are screenshots from the project UI (You can replace these with your own screenshots later).
+> Replace the links below with your own screenshots once you upload them.
 
 ![Screenshot 1](https://user-images.githubusercontent.com/61280281/99399713-0844b900-290c-11eb-8d7c-1199319b4a9e.png)
 ![Screenshot 2](https://user-images.githubusercontent.com/61280281/99399731-0da20380-290c-11eb-8a59-e0a2e5f9b19f.png)
@@ -69,6 +73,8 @@ This web page is hosted [**here!**](https://u-arun07.github.io/todo-list/)
 ## 👨‍💻 Developer
 
 **U ARUN**
+🎓 *3rd Year Computer Science and Engineering Student*
+🏫 *Marri Laxman Reddy Institute of Technology, Hyderabad*
 📧 *Email:* [u.arunbabya1234@gmail.com](mailto:u.arunbabya1234@gmail.com)
 🔗 *GitHub:* [https://github.com/U-ARUN07](https://github.com/U-ARUN07)
 
@@ -76,14 +82,14 @@ This web page is hosted [**here!**](https://u-arun07.github.io/todo-list/)
 
 ## 🧾 Project Summary
 
-> A simple and responsive **To-Do List web application** built using **HTML, CSS, and JavaScript**.
+> A simple and responsive **To-Do List web app** built using **HTML, CSS, and JavaScript**.
 > Allows users to add, edit, delete, and mark tasks as completed with persistent data storage through LocalStorage.
-> Designed with a responsive and modern interface for smooth user experience across devices.
+> Designed with a modern responsive interface for smooth user experience across all devices.
 
 ---
 
 ## 🏁 How to Run the Project
 
-1. **Download or Clone** the repository
+1. **Download or Clone** this repository
    ```bash
    git clone https://github.com/U-ARUN07/todo-list.git
