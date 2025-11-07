@@ -73,8 +73,6 @@ This web page is hosted [**here!**](https://u-arun07.github.io/todo-list/)
 ## 👨‍💻 Developer
 
 **U ARUN**
-🎓 *3rd Year Computer Science and Engineering Student*
-🏫 *Marri Laxman Reddy Institute of Technology, Hyderabad*
 📧 *Email:* [u.arunbabya1234@gmail.com](mailto:u.arunbabya1234@gmail.com)
 🔗 *GitHub:* [https://github.com/U-ARUN07](https://github.com/U-ARUN07)
 
